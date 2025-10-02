@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Space Adventures!</title>
+		<link rel="stylesheet" href="space.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Rubik+Moonrocks&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header><h1 class="header-logo">Space Adventures!</h1></header>
+		<nav>
+			<ul class="main-nav">
+				<li class="main-nav__item"><a href="#moon" class="main-nav__link">The Moon</a></li>
+				<li class="main-nav__item"><a href="#mars" class="main-nav__link">Mars</a></li>
+				<li class="main-nav__item"><a href="#pluto" class="main-nav__link">Pluto</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="row">
+				<div class="column">
+					<h2>Welcome to Space Adventures!</h2>
+
+					<p>
+						We are the solar system’s favourite travel company,
+						offering trips to The Moon, Mars and Pluto.
+					</p>
+
+					<p>Are you bored with the same old holidays?</p>
+
+					<p>Why not book an exciting weekend away!</p>
+
+					<p>It doesn’t need to cost the earth to go to space*.</p>
+
+					<p>(*<em>it does</em>)</p>
+				</div>
+				<div class="column">
+					<form action="" method="push">
+						<label for="name">Your name</label>
+						<input
+							type="text"
+							name="name"
+							placeholder="Your name"
+							autocomplete="name"
+						/>
+						<label for="address">Your address</label>
+						<input
+							type="textarea"
+							rows="4"
+							cols="50"
+							name="address"
+							placeholder="Your address"
+							autocomplete="street-address"
+						/>
+						<fieldset>
+							<legend>Your destination</legend>
+							<label
+								><input
+									type="radio"
+									name="radio"
+									value="The Moon"
+								/>The Moon</label
+							>
+							<label
+								><input
+									type="radio"
+									name="radio"
+									value="Mars"
+								/>Mars</label
+							>
+							<label
+								><input
+									type="radio"
+									name="radio"
+									value="Pluto"
+								/>Pluto</label
+							>
+						</fieldset>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<table>
+					<thead>
+						<tr>
+							<th>Destination</th>
+							<th>Distance (one way)</th>
+							<th>Travel time (round trip)</th>
+							<th>Cost (per passenger)</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>The Moon</td>
+							<td>300,000km</td>
+							<td>2 weeks</td>
+							<td>£40,000,000</td>
+						</tr>
+						<tr>
+							<td>Mars</td>
+							<td>227,000,000km</td>
+							<td>3 years</td>
+							<td>£400,000,000</td>
+						</tr>
+						<tr>
+							<td>Pluto</td>
+							<td>4,500,000,000km</td>
+							<td>25 years</td>
+							<td>£4,000,000,000</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row" id="moon">
+				<div class="column">
+					<img src="./images/moon.jpg" alt="The whole of the moon" />
+				</div>
+				<div class="column">
+					<h2>The Moon</h2>
+					<p>
+						Why not travel in style to The Moon, our closest
+						celestial companion.
+					</p>
+					<p>
+						One of our most affordable trips, and the only one that
+						guarantees* that when you get home again most of your
+						friends won’t have forgotten you.
+					</p>
+					<p><em>(*not guaranteed)</em></p>
+				</div>
+			</div>
+			<div class="row" id="mars">
+				<div class="column">
+					<h2>Mars</h2>
+					<p>
+						You could travel all the way to Mars, 18 months each
+						way, just to spend a weekend climbing the largest
+						mountain in the solar system, Olympus Mons.
+					</p>
+
+					<p>
+						Enjoy massive dust storms, gravity a third that on
+						Earth, and an oxygen-free atmosphere.
+					</p>
+
+					<p>Don’t forget your space suit!</p>
+				</div>
+				<div class="column">
+					<img src="./images/mars.jpg" alt="Mars" />
+				</div>
+			</div>
+			<div class="row" id="pluto">
+				<div class="column">
+					<img src="./images/pluto.jpg" alt="Pluto" />
+				</div>
+				<div class="column">
+					<h2>Pluto</h2>
+					<p>
+						Why not spend a long weekend on our furthest
+						destination?
+					</p>
+					<p>
+						Our fully stocked library ensures that you would have
+						plenty to do during the 25 year round trip.
+					</p>
+					<p>Fun for all the family!</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>&copy; 2024 Space Adventures, all rights reserved</p>
+			<ul>
+				<li>
+					<a href="#">Privacy Policy</a>
+				</li>
+				<li>
+					<a href="#">Cookies</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

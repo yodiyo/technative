@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Mercury",
+		"circumference": "2,500 km",
+		"distanceFromSun": "57,000,000 km"
+	},
+	{
+		"name": "Venus",
+		"circumference": "28,000 km",
+		"distanceFromSun": "108,000,000 km"
+	},
+	{
+		"name": "Earth",
+		"class": "earth",
+		"circumference": "40,000 km",
+		"distanceFromSun": "150,000,000 km",
+		"hasLife": true,
+		"majorMoons": ["The moon"],
+		"atmosphere": ["Nitrogen", "Oxygen"],
+		"url": "https://en.wikipedia.org/wiki/Earth",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg"
+	},
+	{
+		"name": "Mars",
+		"circumference": "227,000,000km",
+		"distanceFromSun": "21,000km"
+	},
+	{
+		"name": "Jupiter",
+		"circumference": "779,000,000km",
+		"distanceFromSun": "440,000km"
+	},
+	{
+		"name": "Saturn",
+		"circumference": "1,430,000,000km",
+		"distanceFromSun": "365,000km"
+	},
+	{
+		"name": "Uranus",
+		"circumference": "2,880,000,000km",
+		"distanceFromSun": "160,000km"
+	},
+	{
+		"name": "Neptune",
+		"circumference": "4,500,000,000km",
+		"distanceFromSun": "154,000km"
+	}
+]

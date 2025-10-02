@@ -1,0 +1,44 @@
+.planet {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 2px green;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.currently-selected-button {
+    background: black;
+    color: orange;
+}
+
+.planet-details {
+    display: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 2px green;
+}
+
+.currently-selected-planet {
+    display: block;
+}
+
+.log {
+
+}

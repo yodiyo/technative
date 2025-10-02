@@ -1,0 +1,65 @@
+/* global */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(./images/stars.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	color: white;
+	margin: 0;
+	font-family: "Montserrat Alternates", sans-serif;
+}
+
+/* text */
+
+/* media */
+
+/* tables */
+
+/* forms */
+
+/* header */
+header {
+	background: url(./images/moon.jpg) no-repeat center top;
+	background-size: cover;
+	width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.header-logo {
+	font-family: "Rubik Moonrocks", cursive;
+	font-size: 40px;
+	text-align: center;
+	padding: 4rem 0.5rem;
+    margin: 0;
+}
+
+/* nav */
+.main-nav {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+    background-color: red;
+}
+
+.main-nav__link {
+    display: block;
+	padding: 1rem 2rem;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+/* main */
+
+/* rows */
+
+/* columns */
+
+/* footer */

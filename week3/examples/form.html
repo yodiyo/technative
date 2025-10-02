@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Planets of the solar system</title>
+		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<h1>Planets of the solar system</h1>
+		<p class="planet mercury"></p>
+		<p class="planet venus"></p>
+		<p class="planet earth"></p>
+		<form>
+			<input
+				type="text"
+				name="planet-name"
+				placeholder="Placeholder text"
+			/>
+
+			<textarea
+				name="planet-description"
+				placeholder="About the planet"
+				rows="5"
+				cols="50"
+			></textarea>
+			<label>
+				<input type="radio" name="planet-type" value="Rocky" />
+				Rocky
+			</label>
+
+			<label>
+				<input type="radio" name="planet-type" value="Gas giant" />
+				Gas giant
+			</label>
+			<label>
+				<input
+					type="checkbox"
+					name="planet-atmosphere"
+					value="Oxygen"
+				/>
+				Oxygen
+			</label>
+
+			<label>
+				<input
+					type="checkbox"
+					name="planet-atmosphere"
+					value="Nitrogen"
+				/>
+				Nitrogen
+			</label>
+			<label>
+				Favourite planet
+				<select name="planet-favourite">
+					<option></option>
+					<option>Mercury</option>
+					<option>Venus</option>
+					<option>Earth</option>
+					<option>Mars</option>
+				</select>
+			</label>
+            <button>Submit form</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+.planet {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+.planet-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.planet-circumference,
+.planet-distance {
+  font-style: italic;
+}
+
+.planet-Earth {
+  background: green;
+}
+
+.planet-Mars {
+  background: red;
+}
+
+.planet-Mercury {
+  background: purple;
+    height: 100px;
+  width: 100px;
+}
+
+.planet-Venus {
+  background: blue;
+    height: 150px;
+  width: 150px;
+}
+
+.search {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
