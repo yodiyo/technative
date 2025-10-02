@@ -11,7 +11,7 @@
 
 ## Week 3 - JavaScript
 
-### https://yodiyo.github.io/technative/week3/examples/events.html
+### Buttons onclick event - https://yodiyo.github.io/technative/week3/examples/events.html
 ### https://yodiyo.github.io/technative/week3/examples/foreach.html
 ### https://yodiyo.github.io/technative/week3/examples/form.html
 ### https://yodiyo.github.io/technative/week3/examples/
