@@ -37,3 +37,7 @@ error_log
 *.msm
 *.msp
 *.txz
+
+# dependency directories
+node_modules/
+vendor/
